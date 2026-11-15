@@ -28,3 +28,6 @@ investigation.cany/
 craft.json
 feed.json
 usage.json
+
+# local build tool state
+.commandcode/
