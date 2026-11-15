@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+build/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# local tooling / binaries
+.tools/
+
+# generated build artifacts (screenshots, capture rounds, research feed)
+checks/
+capture/
+investigation.cany/
+craft.json
+feed.json
+usage.json
